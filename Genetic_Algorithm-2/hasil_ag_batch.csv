@@ -1,0 +1,63 @@
+Uji_Ke,Generasi_Terbaik
+1,70.0
+2,99.0
+3,95.0
+4,81.0
+5,70.0
+6,33.0
+7,nan
+8,80.0
+9,nan
+10,60.0
+11,43.0
+12,12.0
+13,nan
+14,nan
+15,57.0
+16,55.0
+17,nan
+18,nan
+19,nan
+20,82.0
+21,35.0
+22,43.0
+23,96.0
+24,nan
+25,34.0
+26,56.0
+27,nan
+28,nan
+29,nan
+30,50.0
+31,23.0
+32,nan
+33,nan
+34,nan
+35,33.0
+36,31.0
+37,91.0
+38,84.0
+39,76.0
+40,nan
+41,21.0
+42,nan
+43,51.0
+44,nan
+45,88.0
+46,42.0
+47,24.0
+48,nan
+49,nan
+50,nan
+
+
+--- Rangkuman Statistik ---,
+Total Uji Coba,50,
+Total Sukses,30,
+Total Gagal,20,
+Tingkat Sukses (%),60.00,
+--- Statistik Generasi (Hanya Uji Sukses) ---,
+Rata-rata,57.17,
+Minimum (Tercepat),12,
+Maksimum (Terlambat),99,
+Std. Deviasi,25.25,
