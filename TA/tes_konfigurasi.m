@@ -1,6 +1,6 @@
 clear; clc;
 
-JumlahEksperimen = 100; 
+JumlahEksperimen = 20; 
 DataGen = zeros(1, JumlahEksperimen);
 DataFitness = zeros(1, JumlahEksperimen);
 WaktuMulai = tic;

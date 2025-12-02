@@ -43,6 +43,11 @@ function [GenerasiAkhir, FitnessTerbaik] = Copy_of_FFNNBinaryLatih()
             end
         end
 
+        [FitnessSorted, IndeksUrut] = sort(Fitness, 'descend');
+        Populasi = Populasi(IndeksUrut, :);
+        Fitness = FitnessSorted;
+
+
         FitnessTerbaik = MaxF;
     
         if MaxF > Fthreshold

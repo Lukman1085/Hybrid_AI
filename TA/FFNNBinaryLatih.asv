@@ -1,3 +1,5 @@
+clear all
+
 JumMasukan = 3;
 JPmasukan = 2^JumMasukan;
 Nbit = 20;
@@ -12,7 +14,7 @@ Bgraf = Fthreshold;
 UkPop = 40;
 Psilang = 0.8;
 Pmutasi = 0.03;
-MaxG = 100;
+MaxG = 2000;
 
 %inisialisasi Grafis
 hfig = figure;
@@ -56,9 +58,8 @@ for generasi = 1:MaxG
         end
     end
 
-    [FitnessSorted, IndeksUrut] = sort(Fitness, 'descend');
-    Populasi = Populasi(IndeksUrut, :);
-    Fitness = FitnessSorted;
+    [FitnessSorted, IndeksUrut] = sort(Fitness, 'descend')
+    Populasi = Populasi(IndeksU)
 
     FitnessRataRata = mean(Fitness);
 
